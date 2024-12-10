@@ -1,0 +1,19 @@
+my_string ="welcome all!"
+print("Original string:", my_string)
+uppercase_string = my_string.upper()
+print("Uppercase:", uppercase_string)
+lowercase_string = my_string.lower()
+print("Lowercase:", lowercase_string)
+capitalized_string = my_string.capitalize()
+print("Capitalized:", capitalized_string)
+#capitalize the string 
+position = my_string.find("all")
+print("Position of 'all':", position)
+replaced_string = my_string.replace("World", "Python")
+print("Replaced string:", replaced_string)
+split_string = my_string.split(", ")
+print("Split string:", split_string)
+joined_string = ", ".join(split_string)
+print("Joined string:", joined_string)
+reversed_string = my_string[::-1]
+print("Reversed string:", reversed_string)
